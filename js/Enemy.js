@@ -32,7 +32,7 @@ class Enemy {
         // is why we create a property that refers to it.
         this.domElement = document.createElement('img');
         // We give it a src attribute to specify which image to display.
-        this.domElement.src = './images/enemy.png';
+        this.domElement.src = './images/pylon.png';
         // We modify the CSS style of the DOM node.
         this.domElement.style.position = 'absolute';
         this.domElement.style.left = `${this.x}px`;
